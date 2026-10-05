@@ -1,0 +1,43 @@
+:root {
+  /* Paleta Modo Claro */
+  --color-primario: hsl(220, 75%, 45%);
+  --color-primario-hover: hsl(220, 75%, 38%);
+  --color-fondo: hsl(220, 20%, 98%);
+  --color-fondo-alt: hsl(220, 15%, 93%);
+  --color-tarjeta: hsl(0, 0%, 100%);
+  --color-texto: hsl(220, 25%, 15%);
+  --color-texto-suave: hsl(220, 10%, 40%);
+  --color-borde: hsl(220, 15%, 88%);
+  --color-acento: hsl(175, 75%, 38%);
+
+  /* Tipografía */
+  --font-principal: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Espaciado */
+  --esp-1: 0.5rem;
+  --esp-2: 1rem;
+  --esp-3: 1.5rem;
+  --esp-4: 2rem;
+  --esp-5: 3rem;
+  --esp-6: 4rem;
+
+  /* Estilos Visuales */
+  --radio-card: 12px;
+  --radio-btn: 8px;
+  --sombra-suave: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --sombra-hover: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --transicion: all 0.3s ease;
+}
+
+/* Variables para Modo Oscuro */
+html.dark {
+  --color-fondo: hsl(220, 25%, 10%);
+  --color-fondo-alt: hsl(220, 20%, 14%);
+  --color-tarjeta: hsl(220, 20%, 16%);
+  --color-texto: hsl(220, 15%, 92%);
+  --color-texto-suave: hsl(220, 10%, 70%);
+  --color-borde: hsl(220, 15%, 25%);
+  --sombra-suave: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --sombra-hover: 0 8px 24px rgba(0, 0, 0, 0.5);
+}

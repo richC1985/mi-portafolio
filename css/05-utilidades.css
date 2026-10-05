@@ -1,0 +1,42 @@
+/* Accesibilidad: Link de salto */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--color-primario);
+  color: white;
+  padding: var(--esp-1) var(--esp-2);
+  z-index: 2000;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Botón Hamburguesa */
+.hamburger-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger-btn .bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--color-texto);
+  border-radius: 2px;
+  transition: var(--transicion);
+}
+
+.btn-theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.2rem;
+}
